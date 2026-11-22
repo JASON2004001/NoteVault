@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
 
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = 'https://notevault-9its.onrender.com/api';
 
 const savedSession = JSON.parse(localStorage.getItem('notevault_session')) || {
   token: null,
